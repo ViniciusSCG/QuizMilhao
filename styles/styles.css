@@ -1,0 +1,339 @@
+:root{
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1,h2,h3,h4{
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #e02041;
+    margin-bottom: 5rem;
+  }
+  
+  h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  
+  h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* BUTTONS */
+  .btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #e02041;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #e02041;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .button-hud{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    
+  }
+
+  .button-hud li{
+    background-color: #e02041;
+    list-style: none;
+
+    border: 2px solid #e02041;
+    border-radius: 8px;
+
+    height: 180px;
+    
+
+    padding: 32px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+
+    text-align: center;
+
+    cursor: pointer;
+    
+  }
+
+  .button-hud li span{
+    margin-top: 12px;
+
+    flex:1;
+
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+
+    color: white;
+  }
+
+  #modal {
+    background-color: #0E0A14ef;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ms;
+}
+
+#modal.hide {
+    display: none;
+}
+
+
+#modal .content {
+    color: white;
+
+    width: 420px;
+}
+
+#modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 48px
+}
+
+#modal .header a {
+    background-image: url("../assets/x.svg");
+    margin-bottom: 60px;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+
+    font-size: 0.01px;
+}
+
+#modal .header h1 {
+    color: white;
+
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal form label {
+    font-size: 14px;
+    line-height: 16px;
+
+    display: block;
+    margin-bottom: 8px;
+}
+
+#modal form .field {
+    display: flex;
+}
+
+#modal form input {
+    flex: 1;
+
+    background-color: #f0f0f5;
+
+    border-radius: 8px 0 0 8px;
+    border: 0;
+
+    padding: 16px 24px;
+
+    font-size: 16px;
+    color: #6c6c80;
+}
+
+#modal form button {
+    width: 72px;
+    height: 72px;
+
+    background-color: #e02041;
+
+    border: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+#modal form button:hover {
+    background-color: #ee3352;
+}
+
+/* Isto é para o modal point created */
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point h1 { 
+    color: white;
+
+    margin-top: 32px;
+}
+
+#progressBar{
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #e02041;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull{
+  height: 3.4rem;
+  background-color: #e02041;
+  width: 0%;
+}
+
+  body {
+
+    background:#f0f0f5;
+    -webkit-font-smoothing: antialiased;
+
+    animation: changecolor 10s 1;
+}
+
+@keyframes changecolor {
+
+    33.33% {background-color: #f0f0f5;}
+    33.33% {background-color: #474747}
+
+}
+
+#modal p {
+  margin-top: -60px;
+  font-size: 14px;
+  line-height: 16px;
+
+  display: block;
+  margin-bottom: 8px;
+}
+
+#modal #p-idea {
+  display: flex;
+}
+
+#modal #p-idea {
+  flex: 1;
+
+  background-color: #f0f0f5;
+
+  border-radius: 8px;
+  border: 0;
+
+  padding: 16px 24px;
+
+  font-size: 16px;
+  color: #6c6c80;
+}
+
+#modal-idea {
+  width: 148px;
+  height: 72px;
+  background-color: #e02041;
+  border: 0;
+  border-radius:  8px;
+  
+}
+#modal-idea p{
+  flex: 1;
+
+  padding: 85px 24px;
+
+  font-size: 18px;
+  color: white;
+  
+}
+
+#modal form button:hover {
+  background-color: #ee3352;
+}
+
+/* Isto é para o modal point created */
+#modal .idea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal.point h1 { 
+  
+
+  margin-top: 32px;
+}

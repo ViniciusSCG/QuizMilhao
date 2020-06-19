@@ -1,0 +1,35 @@
+.sobrepor{
+    z-index: 9999;
+}
+
+.espacamento{
+    padding: 150px;
+}
+
+.posicaoTitulo{
+    left: 25%;
+    top: 15px;
+}
+
+.corAmarelo{
+  background-color: #f7d466;    
+}
+
+.corVermelho{
+    background-color: #e02041;
+}
+
+.corAzuL{
+    background-color: #38477e;
+}
+
+.titulo{
+    font-size: 32px;
+}
+
+.textoAzul{
+    color:  #38477e;
+}
+.centro{
+    text-align: center;
+}

@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-  <img alt="QuizApp" src="github/quizApp.png" width="100%">
+  <img alt="QuizApp" src="github/quizMilhao.png" width="100%">
 </p>
 
 

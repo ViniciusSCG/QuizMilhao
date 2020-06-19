@@ -1,5 +1,4 @@
-<div class="text-red">
-  <h1 align="center">
-      QUIZ MILHÃO
-  </h1>
-</div>  
+<h1 align="center">
+  <img alt="DevRadar"src="github/quizMilhaoLogo.png" width="200px" />
+</h1>
+

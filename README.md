@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Quiz milhão é um projeto que foi desenvolvido durante a AEP (Atividade Experimental Problematizada) no terceiro semestre do curso Analise e Desenvolvimento de Sistemas, no qual o tema era sobre a nova Lei Geral de Proteção de Dados. O projeto visa conectar pessoas para obter um aprendizado de forma divertida sobre a lei.
+O Quiz milhão é um projeto que foi desenvolvido durante a AEP (Atividade de Estudo Programada) no terceiro semestre do curso Analise e Desenvolvimento de Sistemas, no qual o tema era sobre a nova Lei Geral de Proteção de Dados. O projeto visa conectar pessoas para obter um aprendizado de forma divertida sobre a lei.
 
 ## 🤔 Como contribuir
 
